@@ -10,8 +10,8 @@ namespace TestPerfomansLab
     {
         static void Main()
         {
-            Task1.SolutionTask1();
-            Task2.SolutionTask2();
+            Task1.SolutionTask1().GetAwaiter().GetResult();
+            //Task2.SolutionTask2();
 
         }
     }
