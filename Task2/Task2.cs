@@ -10,8 +10,6 @@ public class Task2
     
     public static void SolutionTask2()
     {
-        float dot_X, dot_Y;
-        int n;
         List<float[]> dots = new List<float[]>();
         float[] center = new float[2];
         float[] radius = new float[2];
